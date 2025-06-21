@@ -1,0 +1,23 @@
+Task Management System - Analysis
+
+1. Linked List Overview:
+- Singly Linked List: Each node points to the next node only.
+- Doubly Linked List: Each node points to both previous and next nodes.
+
+2. Time Complexity:
+- Add Task: O(n) (inserting at the end by traversing)
+- Search Task: O(n)
+- Traverse Tasks: O(n)
+- Delete Task: O(n)
+
+3. Advantages of Linked List over Array:
+- Dynamic size: No need to predefine capacity.
+- Easy insertions/deletions (especially at the beginning or middle).
+- Efficient use of memory (no unused space like arrays).
+
+4. When to Use:
+- When frequent insertions/deletions are required.
+- When the size of data is unknown or changes frequently.
+
+Conclusion:
+Singly linked lists offer efficient memory usage and flexibility, making them ideal for task management where tasks are added or removed often.

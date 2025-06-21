@@ -1,0 +1,24 @@
+Employee Management System - Analysis
+
+1. Array Representation in Memory:
+- Arrays are stored in contiguous memory locations.
+- Each element is accessed via an index, allowing O(1) time for access.
+- Arrays are fixed in size and must be declared with a known capacity.
+
+2. Time Complexity of Operations:
+- Add: O(1) (if space is available)
+- Search: O(n) (linear scan)
+- Traverse: O(n)
+- Delete: O(n) (shift elements after deletion)
+
+3. Limitations of Arrays:
+- Fixed size: Can't grow dynamically.
+- Insertion and deletion are expensive (O(n) time) due to shifting.
+- Waste of memory if size is too large.
+
+4. When to Use Arrays:
+- When the number of records is known and small.
+- When fast access (random index) is needed.
+- When memory overhead must be minimal.
+
+In large or dynamic systems, ArrayList or LinkedList may be more appropriate due to their flexibility.

@@ -1,0 +1,26 @@
+Library Management System - Search Algorithms Analysis
+
+1. Linear Search
+- Searches each element one by one until the target is found.
+- Time Complexity
+  - Best Case O(1)
+  - AverageWorst Case O(n)
+- Works on unsorted data.
+
+2. Binary Search
+- Divides the sorted list in half to search for the target.
+- Time Complexity
+  - Best Case O(1)
+  - AverageWorst Case O(log n)
+- Requires the array to be sorted beforehand.
+
+3. When to Use
+- Use Linear Search
+  - When data is unsorted or small in size.
+  - Simpler to implement, no sorting overhead.
+- Use Binary Search
+  - When data is sorted and large in size.
+  - Offers significantly faster performance.
+
+Conclusion
+Binary search is more efficient for large, sorted datasets, while linear search is flexible for smaller or unsorted collections.

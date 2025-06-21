@@ -1,0 +1,35 @@
+Search Function Analysis – E-commerce Platform
+Big O Notation:
+Big O notation is used to describe the efficiency of algorithms in terms of time and space. It focuses on how the performance of an algorithm scales with the size of the input.
+
+1. Linear Search
+Best Case: O(1) – if the element is at the beginning.
+
+Average Case: O(n/2) ≈ O(n)
+
+Worst Case: O(n) – if the element is at the end or not found.
+
+Use Case: Suitable for small or unsorted product lists.
+
+2. Binary Search
+Best Case: O(1) – if the element is at the middle.
+
+Average Case: O(log n)
+
+Worst Case: O(log n)
+
+Use Case: Suitable for large, sorted product lists for faster searching.
+
+ Conclusion:
+Use Linear Search when:
+
+Products are not sorted.
+
+Dataset is small.
+
+Use Binary Search when:
+
+Products are sorted by name.
+
+Dataset is large, and you want fast lookups.
+

@@ -1,0 +1,10 @@
+Analysis
+Time Complexities (Using HashMap):
+
+Add → O(1) average
+
+Update → O(1) average
+
+Delete → O(1) average
+
+Search/Access → O(1) average

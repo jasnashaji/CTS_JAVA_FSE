@@ -1,0 +1,24 @@
+Sorting Customer Orders - Analysis
+
+Sorting algorithms help organize data efficiently. Two commonly used algorithms are Bubble Sort and Quick Sort.
+
+1. Bubble Sort:
+- Repeatedly compares adjacent elements and swaps them if out of order.
+- Time Complexity:
+  - Best Case: O(n) when already sorted
+  - Average & Worst Case: O(n²)
+- Simple but slow for large datasets.
+
+2. Quick Sort:
+- Uses divide-and-conquer; selects a pivot and partitions the array.
+- Time Complexity:
+  - Best & Average Case: O(n log n)
+  - Worst Case: O(n²) (rare, when pivot is always worst choice)
+- Efficient for large data and widely used in practice.
+
+Comparison:
+- Bubble Sort is easy to implement but inefficient.
+- Quick Sort is faster and better suited for sorting large customer order lists.
+
+Conclusion:
+Quick Sort is generally preferred over Bubble Sort in real-world applications due to its speed and scalability.

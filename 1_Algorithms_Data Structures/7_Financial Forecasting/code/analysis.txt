@@ -1,0 +1,24 @@
+Financial Forecasting - Recursive Algorithm Analysis
+
+1. Concept of Recursion:
+- Recursion is a technique where a method calls itself to solve a smaller subproblem.
+- It simplifies problems that can be broken down into similar subproblems (e.g., predicting compound growth year-by-year).
+
+2. Recursive Method Used:
+- predictValue(initialValue, growthRate, years):
+  This function recursively multiplies the current value by (1 + growthRate) for each year.
+
+3. Time Complexity:
+- Time complexity is O(n), where n is the number of years.
+- Each recursive call reduces the number of years by 1 until it reaches 0.
+
+4. Optimization:
+- The current implementation is efficient (linear) and doesn’t require memoization.
+- However, if the prediction involved overlapping subproblems (like in Fibonacci), memoization or iteration would be necessary to optimize.
+
+5. When to Use Recursion:
+- Useful for problems with a clear base case and smaller subproblems.
+- Be cautious with deep recursion, as it can lead to stack overflow if not bounded.
+
+Conclusion:
+The recursive approach simplifies the logic of financial prediction and is efficient for moderate time periods.
